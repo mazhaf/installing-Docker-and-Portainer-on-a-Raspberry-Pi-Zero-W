@@ -1,4 +1,3 @@
-# installing-Docker-and-Portainer-on-a-Raspberry-Pi-Zero-W
 # 🐳 Docker + Portainer on Raspberry Pi Zero W
 
 This repository provides step-by-step instructions to install **Docker** and run **Portainer** on a Raspberry Pi Zero W (ARMv6 architecture).
