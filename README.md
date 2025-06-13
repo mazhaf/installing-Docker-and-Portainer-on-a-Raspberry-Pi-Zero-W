@@ -1,4 +1,4 @@
-# 🐳 # Installing Docker, Portainer & n8n on Raspberry Pi Zero W
+# 🐳 Installing Docker, Portainer & n8n on Raspberry Pi Zero W
 
 This repository provides step-by-step instructions and configuration files to install **Docker**, **Portainer**, and **n8n** automation tool on a **Raspberry Pi Zero W**.
 
