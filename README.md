@@ -102,12 +102,18 @@ You can change timezone variables.
 
 ## Step 5: Access n8n
 
-Open the following URL in your browser:
+ - Using hostname:  
+
 ```bash
 http://<your-pi-hostname>.local:5678
 ```
 Replace <your-pi-hostname> with your Raspberry Pi's hostname.
 
+- Using IP address:
+  
+```bash
+http://<your-pi-ip-address>:5678
+```
 ---
 
 ## Additional Notes
