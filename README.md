@@ -6,7 +6,7 @@ This repository provides step-by-step instructions and configuration files to in
 
 You will learn how to:
 - Update and upgrade the Raspberry Pi OS  
-- Install Docker and manage it 
+- Install Docker and manage it without `sudo`
 - Install Portainer for container management via a web UI  
 - Deploy and run n8n as a Docker stack using Portainer  
 - Access and start using n8n for workflow automation  
