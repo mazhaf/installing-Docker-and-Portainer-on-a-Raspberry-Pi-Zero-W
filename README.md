@@ -72,6 +72,8 @@ or use username and pi name
 ```bash
 http://<your-raspberrypi-user>@<your-raspberrypi-name>.local:9000
 ```
+---
+
 ## Step 4: Deploy n8n with Portainer
 
 1. Log in to Portainer.
@@ -93,4 +95,35 @@ services:
       - N8N_SECURE_COOKIE=false
 ```
 You can change timezone variables.
+
+6. Click Deploy the stack.
+
+---
+
+## Step 5: Access n8n
+
+Open the following URL in your browser:
+```bash
+http://<your-pi-hostname>.local:5678
+```
+Replace <your-pi-hostname> with your Raspberry Pi's hostname.
+
+---
+
+## Additional Notes
+
+- The n8n_data volume ensures your workflow data persists across container restarts.
+- Change timezone values in the stack file if you’re outside Asia/Riyadh timezone.
+- Raspberry Pi Zero W has limited resources — running multiple containers may affect performance.
+
+---
+
+## Troubleshooting
+
+- If Docker commands fail without sudo, ensure you logged out and back in (or rebooted) after adding your user to the Docker group.
+- Use docker logs <container_name> to check container logs if something doesn’t start correctly.
+- Ensure ports 9000 (Portainer) and 5678 (n8n) are not blocked by firewalls.
+
+## License
+This repository is open-source under the MIT License.
 
