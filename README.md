@@ -15,7 +15,8 @@ You will learn how to:
 
 ## Prerequisites
 
-- Raspberry Pi Zero W with Raspberry Pi OS (Lite preferred)  
+- Raspberry Pi Zero W
+- Raspberry Pi OS **Lite (64-bit)** installed, n8n will **not work** on (32-bit) OS due to architecture limitations
 - Network connectivity (Wi-Fi or Ethernet via USB adapter)  
 - Basic Linux command line knowledge
 
